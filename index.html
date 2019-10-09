@@ -51,13 +51,36 @@
         <div class="row">
           <div class="col-md-12 text-center">
 
-            <h1>Música para todos</h1>
-            <a class="btn btn-custom btn-lg btn-bg-blue" href="#">
-              Aproveite o Spotify Free
-            </a>
-            <a class="btn btn-custom btn-lg btn-border-white" href="#">
-              Obter Spotify Premium
-            </a>
+            <div id="carousel-spotify" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <h1>Música para todos</h1>
+                  <a class="btn btn-custom btn-lg btn-bg-blue" href="#">
+                    Aproveite o Spotify Free
+                  </a>
+                  <a class="btn btn-custom btn-lg btn-border-white" href="#">
+                    Obter Spotify Premium
+                  </a>
+                </div>
+
+                <div class="carousel-item">
+                  <h1>As melhores rádios</h1>
+                  <a class="btn btn-custom btn-lg btn-border-white" href="#">
+                    <i class="fas fa-music"></i> Ouça agora
+                  </a>
+                </div>
+
+              </div>
+              <!-- Carousel controls -->
+              <a class="carousel-control-prev" data-slide="prev" href="#carousel-spotify">
+                <i class="fas fa-angle-left fa-2x"></i>
+              </a>
+              <a class="carousel-control-next" data-slide="next" href="#carousel-spotify">
+                <i class="fas fa-angle-right fa-2x"></i>
+              </a>
+
+            </div>
 
           </div>
         </div>
@@ -137,6 +160,57 @@
         </div>
       </div>
     </section>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-2">
+            <img src="assets/images/spotify.svg" alt="Logo" width="145">
+          </div>
+          <div class="col-md-2">
+            <h4>COMPANY</h4>
+            <ul class="navbar-nav">
+              <li><a href="#">Sobre</a></li>
+              <li><a href="#">Empregos</a></li>
+              <li><a href="#">Imprensa</a></li>
+              <li><a href="#">Novidades</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>COMUNIDADES</h4>
+            <ul class="navbar-nav">
+              <li><a href="#">Artistas</a></li>
+              <li><a href="#">Desenvolvedores</a></li>
+              <li><a href="#">Marcas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h4>LINKS ÚTIEIS</h4>
+            <ul class="navbar-nav">
+              <li><a href="#">Ajuda</a></li>
+              <li><a href="#">Presentes</a></li>
+              <li><a href="#">Web player</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul id="social-icons">
+              <li>
+                <a href="#"><i class="fab fa-facebook-f fa-fw fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-instagram fa-fw fa-2x"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fab fa-twitter fa-fw fa-2x"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
 
 
 

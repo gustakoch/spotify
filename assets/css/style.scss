@@ -1,12 +1,13 @@
 html, body, #home {
   height: 100%;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 body {
   background: url(../images/capa.png),
               url(../images/ruido.png),
-              linear-gradient(50deg, #FF4169, #7C26F8);
+              linear-gradient(50deg, #ff4169, #7C26F8);
   background-attachment: fixed;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -65,6 +66,13 @@ h1 {
   background-color: #FFF;
 }
 
+/* Carousel
+**********************************************/
+
+.carousel-control-next, .carousel-control-prev {
+  width: 0;
+}
+
 /* Content Area
 **********************************************/
 
@@ -101,6 +109,36 @@ h3 {
 .rotate-row {
   transform: rotate(35deg);
   padding-left: 120px;
+}
+
+/* Footer
+**********************************************/
+
+footer {
+  background: #000;
+  position: relative;
+  padding: 50px 0;
+  h4 {
+    font-size: 14px;
+    color: #AAA;
+    text-transform: uppercase;
+  }
+  ul li a {
+    color: #FFF;
+    font-size: 14px;
+  }
+  ul li a:hover {
+    text-decoration: none;
+    color: #9BF0E1;
+  }
+  ul#social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  ul#social-icons li {
+    margin-left: 10px;
+  }
 }
 
 
